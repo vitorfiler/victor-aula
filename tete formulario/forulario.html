@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<style>
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #080808, #2b2b2b);
+  }
+
+  .box{
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    font-size: 20pt;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  legend{
+    color: white;
+    text-align: center;
+    padding-top: 5px white;
+    
+    }
+
+  p{
+    color: white;
+  }
+  
+  input{
+    color: white;
+    
+  }
+ 
+
+</style>
+<body>
+  <div class="box">
+    <FIELdset>
+      <legend><b> Teste Formulario </b> </legend>
+      <form action="../teste menu/Quem é Victor.html" method="post" autocomplete="on">
+        <p><label for="nome">Nome :</label> 
+          <input type="text" name="nome" id="nome" required minlength="1" placeholder="NOME"/></p>
+        
+        <p><label for="Sobrenome">Sobrenome :</label>
+          <input type="text" name="sobrenomeCompleto" id="Sobrenome" required minlength="1" placeholder="SOBRENOME"></p>
+
+        <p><label for="Data">Data Nascimento:</label>
+          <input type="date" name="Data" id="Data"></p>
+
+        <p><label for="senha">senha</label>
+          <input type="password" name="senha" id="senha" required minlength="8" maxlength="14" size="9" placeholder="min 8 carecter"></p>
+        <input type="submit" value="Enviar">
+
+      </form>
+    </FIELdset>  
+  </div>    
+</body>
+</html>

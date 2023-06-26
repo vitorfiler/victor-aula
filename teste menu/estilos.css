@@ -1,0 +1,100 @@
+@charset "UTF-8";
+body{
+    /* position: relative; */
+    left: 5px;
+    right: 5px;
+    top: 0px;
+    box-shadow: 10px 10px 10px 10px black;
+    border: 3px solid rgba(90, 84, 84, 0.795);
+    margin: 10px;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: lemonchiffon;
+}
+
+h1 {
+    margin-top: 5px;
+    font-family: Georgia;
+    font-size: 40pt;
+    text-shadow: gray 3px 3px 3px;
+}
+
+h2 {
+    font-family: decorative;
+    font-size: 30pt;
+    text-indent: 35px;
+    
+}
+
+p {
+    font-family: arial;
+    font-size: 20pt;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a{
+    size: 50pt;
+}
+
+figure{ 
+    box-shadow: 1px 1px 7px 5px black;
+    float: right;
+}
+figcaption{
+    font-family: arial, sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.foto{
+    color: transparent;
+    background-color: transparent;
+}
+.foto:hover{
+    background-color: black;
+    color: white;
+}
+nav menu{
+    display: vertical block;
+}
+
+nav ul{
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+nav li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    background-color: rgb(179, 178, 178);
+    padding: 10px;
+    margin-right: 680px;
+    margin-top: 10px;
+    text-align: center;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: #606060;
+}
+nav li a:hover{
+    color: white;
+    
+}
+nav h1{
+    display: none   ;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+
